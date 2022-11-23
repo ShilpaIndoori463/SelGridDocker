@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-11-17T06:52:50 GMT-08:00" name="Dockergrid" finished-at="2022-11-17T06:53:38 GMT-08:00" duration-ms="47581">
+    <groups>
+    </groups>
+    <test started-at="2022-11-17T06:52:50 GMT-08:00" name="Test" finished-at="2022-11-17T06:53:38 GMT-08:00" duration-ms="47581">
+      <class name="selenium.grid.docker.selenium.grid.docker.EnvSetupAndTestrunner">
+        <test-method is-config="true" signature="startDocEnv()[pri:0, instance:selenium.grid.docker.selenium.grid.docker.EnvSetupAndTestrunner@1a482e36]" started-at="2022-11-17T06:52:50 GMT-08:00" name="startDocEnv" finished-at="2022-11-17T06:53:15 GMT-08:00" duration-ms="25051" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDocEnv -->
+        <test-method is-config="true" signature="stopDocEnv()[pri:0, instance:selenium.grid.docker.selenium.grid.docker.EnvSetupAndTestrunner@1a482e36]" started-at="2022-11-17T06:53:33 GMT-08:00" name="stopDocEnv" finished-at="2022-11-17T06:53:38 GMT-08:00" duration-ms="5023" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopDocEnv -->
+      </class> <!-- selenium.grid.docker.selenium.grid.docker.EnvSetupAndTestrunner -->
+      <class name="selenium.grid.docker.selenium.grid.docker.Chromeone">
+        <test-method signature="Test1()[pri:0, instance:selenium.grid.docker.selenium.grid.docker.Chromeone@dd8ba08]" started-at="2022-11-17T06:53:15 GMT-08:00" name="Test1" finished-at="2022-11-17T06:53:24 GMT-08:00" duration-ms="9209" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test1 -->
+      </class> <!-- selenium.grid.docker.selenium.grid.docker.Chromeone -->
+      <class name="selenium.grid.docker.selenium.grid.docker.Chromethree">
+        <test-method signature="Test1()[pri:0, instance:selenium.grid.docker.selenium.grid.docker.Chromethree@245b4bdc]" started-at="2022-11-17T06:53:15 GMT-08:00" name="Test1" finished-at="2022-11-17T06:53:30 GMT-08:00" duration-ms="14409" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test1 -->
+      </class> <!-- selenium.grid.docker.selenium.grid.docker.Chromethree -->
+      <class name="selenium.grid.docker.selenium.grid.docker.Firefoxone">
+        <test-method signature="Test1()[pri:0, instance:selenium.grid.docker.selenium.grid.docker.Firefoxone@6c64cb25]" started-at="2022-11-17T06:53:15 GMT-08:00" name="Test1" finished-at="2022-11-17T06:53:32 GMT-08:00" duration-ms="17089" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test1 -->
+      </class> <!-- selenium.grid.docker.selenium.grid.docker.Firefoxone -->
+      <class name="selenium.grid.docker.selenium.grid.docker.Chrometwo">
+        <test-method signature="Test1()[pri:0, instance:selenium.grid.docker.selenium.grid.docker.Chrometwo@59309333]" started-at="2022-11-17T06:53:15 GMT-08:00" name="Test1" finished-at="2022-11-17T06:53:33 GMT-08:00" duration-ms="17430" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test1 -->
+      </class> <!-- selenium.grid.docker.selenium.grid.docker.Chrometwo -->
+    </test> <!-- Test -->
+  </suite> <!-- Dockergrid -->
+</testng-results>
